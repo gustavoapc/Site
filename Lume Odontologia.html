@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lume Odontologia | Clínica odontológica com implantes, lentes e ortodontia</title>
+<meta name="description" content="Clínica odontológica com clareamento, implantes, ortodontia e atendimento de urgência. Agende sua avaliação pelo WhatsApp.">
+<meta name="theme-color" content="#0A2E3B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"Lume Odontologia","telephone":"+55-81-90000-0000","openingHours":["Mo-Fr 08:00-19:00","Sa 08:00-13:00"],"address":{"@type":"PostalAddress","streetAddress":"Rua Exemplo, 123","addressCountry":"BR"}}</script>
+<style>
+:root{--ink:#0A2E3B;--bg:#FFFFFF;--soft:#E6F7F3;--teal:#0E9F92;--teal-d:#0A7A70;--sun:#FFC94A;--text:#1D3B46;--muted:#4F6A73;--card:#FFFFFF;--line:#CFE6E1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#071C24;--soft:#0C2A35;--text:#DCEEF0;--muted:#9DB9BF;--card:#0F3140;--line:#1C4655;--teal:#2CD3C3;--teal-d:#2CD3C3}}
+:root[data-theme="dark"]{--bg:#071C24;--soft:#0C2A35;--text:#DCEEF0;--muted:#9DB9BF;--card:#0F3140;--line:#1C4655;--teal:#2CD3C3;--teal-d:#2CD3C3}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.0625rem/1.65 "DM Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;line-height:1.08;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);font-weight:800}
+h3{font-size:1.3rem;font-weight:600}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--sun);color:#0A2E3B;padding:.6rem 1rem;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(3.5rem,8vw,6.5rem) 0}
+.btn{display:inline-flex;align-items:center;gap:.5rem;min-height:48px;padding:.8rem 1.5rem;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:1rem;font-family:inherit;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-sun{background:var(--sun);color:#0A2E3B}
+.btn-line{border-color:currentColor;color:#fff}
+.btn-teal{background:var(--teal-d);color:#fff}
+:root[data-theme="dark"] .btn-teal{color:#062028}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn-teal{color:#062028}}
+header.top{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:1rem}
+.logo{font:800 1.4rem "Bricolage Grotesque",sans-serif;text-decoration:none;display:flex;align-items:center;gap:.5rem}
+.nav ul{display:flex;gap:1.5rem;list-style:none;margin:0;padding:0}
+.nav ul a{text-decoration:none;font-weight:500;opacity:.9}
+.nav ul a:hover{opacity:1;text-decoration:underline;text-decoration-color:var(--sun);text-underline-offset:6px}
+@media (max-width:820px){.nav ul{display:none}}
+.hero{background:var(--ink);color:#fff;padding:clamp(3rem,7vw,5.5rem) 0 0;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7.5vw,5.4rem);font-weight:800}
+.hero h1 span{color:var(--sun)}
+.hero p.lead{font-size:1.2rem;max-width:34rem;margin:1.4rem 0 2rem;color:#CDE8E8}
+.cta{display:flex;flex-wrap:wrap;gap:.9rem}
+.proof{display:flex;gap:1.6rem;flex-wrap:wrap;margin:2.2rem 0 0;padding:0;list-style:none;color:#CDE8E8;font-size:.95rem}
+.proof strong{display:block;font:800 1.7rem "Bricolage Grotesque",sans-serif;color:#fff}
+.tooth{width:100%;max-width:460px;justify-self:center;filter:drop-shadow(0 30px 40px rgba(0,0,0,.35))}
+.spark{transform-origin:center;transform-box:fill-box;animation:tw 2.6s ease-in-out 3}
+@keyframes tw{0%,100%{opacity:.3;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.smile{display:block;width:100%;height:auto;margin-top:2.5rem;color:var(--bg)}
+@media (max-width:820px){.hero .wrap{grid-template-columns:1fr}.tooth{max-width:280px;order:-1}}
+.head{max-width:40rem;margin-bottom:2.6rem}
+.head p{margin-top:1rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.2rem}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:1.6rem}
+.card p{color:var(--muted);margin-top:.6rem}
+.card .ic{width:52px;height:52px;border-radius:16px;background:var(--soft);display:grid;place-items:center;margin-bottom:1rem;color:var(--teal-d)}
+.card.hl{background:var(--sun);border-color:var(--sun);color:#0A2E3B}
+.card.hl p{color:#3B3A1F}
+.soft{background:var(--soft)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+@media (max-width:820px){.split{grid-template-columns:1fr}}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;gap:1rem}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:1rem;align-items:start}
+.steps li::before{content:counter(s);width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--sun);display:grid;place-items:center;font:800 1.2rem "Bricolage Grotesque",sans-serif}
+.steps b{display:block;font-size:1.1rem}
+.steps span{color:var(--muted)}
+figure{margin:0}
+blockquote{margin:0}
+.rev p{font-size:1.05rem;color:var(--text);margin-top:0}
+.stars{color:#E0A100;letter-spacing:2px;font-size:1.1rem}
+.rev footer{margin-top:1rem;font-weight:700}
+.rev small{display:block;font-weight:400;color:var(--muted)}
+form{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:1.6rem;display:grid;gap:1rem}
+label{font-weight:700;display:grid;gap:.4rem;font-size:.98rem}
+input,select{font:inherit;min-height:48px;padding:.6rem .9rem;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--text);width:100%}
+input:focus,select:focus{border-color:var(--teal)}
+.fine{font-size:.85rem;color:var(--muted)}
+details{border-bottom:2px solid var(--line);padding:1rem 0}
+summary{cursor:pointer;font-weight:700;font-size:1.1rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--teal-d);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:.7rem;color:var(--muted);max-width:44rem}
+footer.site{background:var(--ink);color:#CDE8E8;padding:3.5rem 0 2rem;padding-bottom:calc(2rem + env(safe-area-inset-bottom,0px))}
+footer.site .grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}
+footer.site h3{color:#fff;font-size:1.1rem;margin-bottom:.6rem}
+footer.site a{color:var(--sun)}
+.legal{margin-top:2.5rem;padding-top:1.2rem;border-top:1px solid #1C4655;font-size:.85rem}
+.wpp{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:60;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#topo" aria-label="Lume Odontologia, início">
+      <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6c-6-4-20-3-22 10-1 9 4 14 5 24 1 9 4 18 8 18 5 0 4-13 9-13s4 13 9 13c4 0 7-9 8-18 1-10 6-15 5-24C52 3 38 2 32 6z" fill="#fff"/></svg>
+      Lume
+    </a>
+    <nav aria-label="Principal"><ul>
+      <li><a href="#tratamentos">Tratamentos</a></li>
+      <li><a href="#como-funciona">Como funciona</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#duvidas">Dúvidas</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul></nav>
+    <a class="btn btn-sun" href="#agendar">Agendar avaliação</a>
+  </div>
+</header>
+
+<main id="conteudo">
+<div class="hero" id="topo">
+  <div class="wrap">
+    <div>
+      <h1>Seu sorriso, <span>sem medo</span> do dentista.</h1>
+      <p class="lead">Clareamento, implantes, lentes e ortodontia com tecnologia digital, anestesia confortável e um plano de tratamento claro desde a primeira consulta.</p>
+      <div class="cta">
+        <a class="btn btn-sun" href="#agendar">Agendar avaliação</a>
+        <a class="btn btn-line" href="#tratamentos">Ver tratamentos</a>
+      </div>
+      <ul class="proof">
+        <li><strong>4,9</strong>nota média no Google</li>
+        <li><strong>12 anos</strong>de atendimento</li>
+        <li><strong>+8 mil</strong>pacientes atendidos</li>
+      </ul>
+    </div>
+    <svg class="tooth" viewBox="0 0 320 320" role="img" aria-label="Ilustração de um dente brilhando">
+      <circle cx="160" cy="165" r="140" fill="#0E9F92" opacity=".22"/>
+      <path d="M160 58c-30-20-88-14-96 40-4 40 20 62 24 104 4 40 16 76 34 76 22 0 18-56 38-56s16 56 38 56c18 0 30-36 34-76 4-42 28-64 24-104-8-54-66-60-96-40z" fill="#fff"/>
+      <path d="M110 92c-14 4-24 16-24 36" stroke="#CDE8E8" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <path d="M118 176c14 14 70 14 84 0" stroke="#0E9F92" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <g fill="#FFC94A"><path class="spark" d="M258 66l6 18 18 6-18 6-6 18-6-18-18-6 18-6z"/><path class="spark" style="animation-delay:.5s" d="M60 60l4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/><path class="spark" style="animation-delay:1s" d="M268 200l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></g>
+    </svg>
+  </div>
+  <svg class="smile" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0c360 110 1080 110 1440 0v90H0z" fill="currentColor"/></svg>
+</div>
+
+<section id="tratamentos" aria-labelledby="t-trat">
+  <div class="wrap">
+    <div class="head"><h2 id="t-trat">Tratamentos para cada fase do sorriso</h2><p>Da prevenção à reabilitação completa, tudo em um só lugar.</p></div>
+    <div class="grid">
+      <article class="card hl"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/></svg></div><h3>Clareamento</h3><p>Até 8 tons mais claro em uma sessão de consultório, com proteção para a sensibilidade.</p></article>
+      <article class="card"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v8M8 11h8M10 11v9M14 11v9"/></svg></div><h3>Implantes</h3><p>Planejamento digital em 3D para dentes fixos, naturais e duradouros.</p></article>
+      <article class="card"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9h16M4 15h16M8 6v12M16 6v12"/></svg></div><h3>Ortodontia</h3><p>Aparelhos fixos, estéticos e alinhadores transparentes para adultos e crianças.</p></article>
+      <article class="card"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></div><h3>Lentes de contato dental</h3><p>Lâminas finas de porcelana para corrigir cor, formato e tamanho.</p></article>
+      <article class="card"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Urgência odontológica</h3><p>Dor, fratura ou dente solto? Atendemos no mesmo dia, com horário reservado.</p></article>
+      <article class="card"><div class="ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 017-2.5A4 4 0 0119 11c0 5.5-7 10-7 10z"/></svg></div><h3>Odontopediatria</h3><p>Consultório lúdico e profissionais treinados para tornar a visita divertida.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="como-funciona" aria-labelledby="t-como">
+  <div class="wrap split">
+    <div>
+      <h2 id="t-como">Da primeira consulta ao sorriso novo</h2>
+      <p style="margin-top:1rem;color:var(--muted);max-width:32rem">Você sabe o que será feito, quanto custa e quanto tempo leva antes de começar.</p>
+      <p style="margin-top:1.6rem"><a class="btn btn-teal" href="#agendar">Começar agora</a></p>
+    </div>
+    <ol class="steps">
+      <li><div><b>Avaliação completa</b><span>Exame clínico, fotos e escaneamento digital, sem moldagem.</span></div></li>
+      <li><div><b>Plano de tratamento</b><span>Explicamos as opções, os prazos e o orçamento por escrito.</span></div></li>
+      <li><div><b>Tratamento confortável</b><span>Anestesia tópica, atendimento sem pressa e pausas quando você quiser.</span></div></li>
+      <li><div><b>Acompanhamento</b><span>Retornos programados e lembretes de manutenção pelo WhatsApp.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="depoimentos" aria-labelledby="t-dep">
+  <div class="wrap">
+    <div class="head"><h2 id="t-dep">Quem passou por aqui conta</h2><p>Depoimentos ilustrativos: substitua por avaliações reais, com autorização dos pacientes.</p></div>
+    <div class="grid">
+      <figure class="card rev"><div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div><blockquote><p>Tinha pavor de dentista. Fui atendida com calma e saí sem dor. Já indiquei para a família toda.</p></blockquote><footer>Mariana S.<small>Clareamento</small></footer></figure>
+      <figure class="card rev"><div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div><blockquote><p>O implante ficou tão natural que ninguém percebe. O orçamento foi claro e cumpriram o prazo.</p></blockquote><footer>Carlos A.<small>Implante</small></footer></figure>
+      <figure class="card rev"><div class="stars" role="img" aria-label="5 de 5 estrelas">★★★★★</div><blockquote><p>Meu filho pediu para voltar. A equipe transforma a consulta em brincadeira.</p></blockquote><footer>Renata P.<small>Odontopediatria</small></footer></figure>
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="agendar" aria-labelledby="t-ag">
+  <div class="wrap split">
+    <div>
+      <h2 id="t-ag">Agende sua avaliação</h2>
+      <p style="margin-top:1rem;color:var(--muted);max-width:30rem">Preencha os dados e abriremos uma conversa no WhatsApp com sua solicitação pronta. Respondemos em horário comercial.</p>
+    </div>
+    <form id="form" novalidate>
+      <label for="nome">Nome completo<input id="nome" name="nome" autocomplete="name" required></label>
+      <label for="tel">Telefone com DDD<input id="tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required></label>
+      <label for="trat">Interesse<select id="trat"><option>Avaliação geral</option><option>Clareamento</option><option>Implantes</option><option>Ortodontia</option><option>Lentes de contato dental</option><option>Urgência</option></select></label>
+      <p id="msg" class="fine" role="status" aria-live="polite"></p>
+      <button class="btn btn-teal" type="submit">Enviar pelo WhatsApp</button>
+      <p class="fine">Usamos seus dados apenas para retornar o contato, conforme a LGPD.</p>
+    </form>
+  </div>
+</section>
+
+<section id="duvidas" aria-labelledby="t-fq">
+  <div class="wrap">
+    <div class="head"><h2 id="t-fq">Dúvidas frequentes</h2></div>
+    <details><summary>Clareamento causa sensibilidade?</summary><p>Pode causar sensibilidade passageira. Usamos géis dessensibilizantes e ajustamos a concentração ao seu caso.</p></details>
+    <details><summary>Vocês aceitam convênios e parcelam?</summary><p>Consulte os convênios aceitos pelo WhatsApp. Tratamentos particulares podem ser parcelados no cartão.</p></details>
+    <details><summary>Quanto tempo dura um implante?</summary><p>Com higiene e revisões periódicas, pode durar décadas. A durabilidade depende de cada paciente, e o profissional avalia seu caso.</p></details>
+    <details><summary>Atendem urgências no mesmo dia?</summary><p>Sim. Ligue ou envie mensagem e reservamos o primeiro horário disponível.</p></details>
+  </div>
+</section>
+</main>
+
+<footer class="site" id="contato">
+  <div class="wrap">
+    <div class="grid">
+      <div><h3>Lume Odontologia</h3><p>Rua Exemplo, 123, Bairro<br>Cidade/UF, CEP 00000-000</p></div>
+      <div><h3>Horários</h3><p>Seg a sex: 8h às 19h<br>Sábado: 8h às 13h</p></div>
+      <div><h3>Contato</h3><p><a href="tel:+5581900000000">(81) 90000-0000</a><br><a href="mailto:contato@exemplo.com.br">contato@exemplo.com.br</a></p></div>
+    </div>
+    <p class="legal">Responsável técnico: Dra. Nome Sobrenome, CRO-UF 00000. Os resultados variam de paciente para paciente. Este site usa dados fictícios de exemplo.</p>
+  </div>
+</footer>
+
+<a class="btn btn-sun wpp" id="wpp" href="https://wa.me/5581900000000?text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o." aria-label="Falar no WhatsApp">Falar no WhatsApp</a>
+
+<script>
+(function(){
+  var f=document.getElementById('form'),m=document.getElementById('msg');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=f.nome.value.trim(),t=f.tel.value.replace(/\D/g,'');
+    if(n.length<3){m.textContent='Informe seu nome completo.';f.nome.focus();return}
+    if(t.length<10||t.length>11){m.textContent='Informe um telefone com DDD, com 10 ou 11 números.';f.tel.focus();return}
+    m.textContent='';
+    var txt='Olá! Sou '+n+' ('+f.tel.value+'). Quero agendar: '+f.trat.value+'.';
+    window.open('https://wa.me/5581900000000?text='+encodeURIComponent(txt),'_blank','noopener');
+  });
+})();
+</script>
+</body>
+</html>
